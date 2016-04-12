@@ -5,6 +5,7 @@ Skills
 * Because
 * Preparation
 $ gradle eclipse
+$ Right click on project / Properties / Java build path / Libraries / Add external JAR / $JETTY_HOME/lib/servlet-apiX.jar
 * Build
 $ gradle build
 * Run

@@ -1,4 +1,4 @@
-package com.mkyong.helloworld.web;
+package io.shuriken.skills.web;
 
 import java.util.Map;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mkyong.helloworld.service.HelloWorldService;
+import io.shuriken.skills.service.HelloWorldService;
 
 @Controller
 public class WelcomeController {
